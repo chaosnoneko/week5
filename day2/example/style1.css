@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    border: 3px solid red;
+  }
+  
+  .item {
+    margin: 10px;
+    padding: 10px;
+    /* width: 200px; */
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    /* flex-grow: 1; */
+    flex: 1;
+  }
+  
+  .one {
+    flex: 2;
+  }
+  
+  .three {
+    flex: 3;
+  }
+  
+  .tomato {
+    background: tomato;
+  }
+  
+  .green {
+    background: green;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  

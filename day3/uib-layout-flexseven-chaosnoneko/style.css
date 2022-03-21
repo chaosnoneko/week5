@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box1 {
+  background-color: rgb(157, 57, 167);
+}
+.box2 {
+  background-color: rgb(174, 76, 245);
+}
+.box3 {
+  background-color: rgb(95, 86, 179);
+}
+.box4 {
+  background-color: rgb(59, 185, 59);
+}
+.box5 {
+  background-color: rgb(241, 227, 93);
+}
+.box6 {
+  background-color: rgb(199, 119, 43);
+}
+.box7 {
+  background-color: rgb(209, 73, 73);
+}
+div {
+  display: flex;
+}
+/* desktop */
+div {
+  height: 100vh;
+  flex-basis: 100%;
+  flex-flow: wrap;
+}
+.box1,
+.box2,
+.box6,
+.box7 {
+  flex-basis: 50%;
+}
+.box3,
+.box4,
+.box5 {
+  flex-basis: 33.33%;
+}
+/* tablet  */
+@media screen and (max-width: 800px) {
+  div {
+    height: 100vh;
+    flex-basis: 100%;
+    flex-flow: wrap;
+  }
+  .box1,
+  .box2,
+  .box6,
+  .box7 {
+    flex-basis: 100%;
+  }
+  .box3,
+  .box4,
+  .box5 {
+    flex-basis: 33.33%;
+  }
+}
+/* mobile */
+@media screen and (max-width: 600px) {
+  div {
+    height: 100vh;
+    flex-basis: 100%;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7 {
+    flex-basis: 100%;
+  }
+}

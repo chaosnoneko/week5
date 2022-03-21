@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    /*exaple 1 flex-direction: column; */
+    /*exaple 2 flex-wrap: nowrap; */
+    /*exaple 3 flex-flow: nowrap; */
+    /*exaple 4 justify-content: space-around; */
+    align-items: stretch;
+    height: 250px;
+    width: 100%;
+    border: 3px solid red;
+  }
+  
+  .item {
+    margin: 10px;
+    padding: 10px;
+    /* exapme 1-3 width: 250px;
+    height: 50px; */
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .tomato {
+    background: tomato;
+    height: 180px;
+  }
+  
+  .green {
+    background: green;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  

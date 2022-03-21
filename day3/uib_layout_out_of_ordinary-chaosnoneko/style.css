@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+div {
+    width: 200px;
+    height: 100px;
+    line-height: 90px;
+}
+.action {
+    background-color: dodgerblue;
+}
+.thriller {
+    background-color: rgb(190, 178, 178);
+}
+.comedy {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 6;
+}
+.horror {
+    background-color: black;
+    color: white;
+}
+.drama {
+    background-color: darkgray;
+}
+.romance {
+    background-color: red;
+    flex-grow: 3;
+}
